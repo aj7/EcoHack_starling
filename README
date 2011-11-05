@@ -1,3 +1,6 @@
 Readme about approach to the EcoHack session on Starlings (Sturnus Vulgaris)
 
 - The EcoHackNYC.zip contains the script we used to extract data for Sturnus Vulgaris and storing in a CSV file.
+
+Converting a tab separated file to a comma separate file from command line:
+- more filename.txt | awk '{print $2", "$3","$4","$5","$6","$7;}' > filename.csv 
